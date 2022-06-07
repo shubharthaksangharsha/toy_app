@@ -11,7 +11,9 @@
 
   <p>
     <strong>UserName: </strong>
-    <%= micropost.user.name %>
+    <% if micropost.user %>
+      <%= micropost.user.name %>
+    <% end %>
   </p>
 
 </div>

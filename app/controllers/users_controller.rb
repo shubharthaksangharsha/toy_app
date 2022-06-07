@@ -51,6 +51,10 @@ class UsersController < ApplicationController
   # DELETE /users/1 or /users/1.json
   def destroy
     @user.destroy
+    @user.microposts.each do |i|
+      puts i.content
+      i.destroy
+    end
 
     respond_to do |format|
       format.html { redirect_to users_url, notice: "User was successfully destroyed." }
