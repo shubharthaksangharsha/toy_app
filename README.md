@@ -1,3 +1,3 @@
 # README
 
-# Visit: [*ToyApp*](https://www.shubh-toy-app.herokuapp.com)
+## Visit: [*ToyApp*](https://shubh-toy-app.herokuapp.com/)
