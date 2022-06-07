@@ -1,3 +1,3 @@
 # README
 
-#Visit: [*HelloApp*](https://www.shubh-hello-app.herokuapp.com)
+# Visit: [*ToyApp*](https://www.shubh-toy-app.herokuapp.com)
